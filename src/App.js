@@ -7,9 +7,9 @@ import './App.css';
 
 
 const App = () => {
-  const [red, setRed] = useState(255);
-  const [green, setGreen] = useState(120);
-  const [blue, setBlue] = useState(30);
+  const [red, setRed] = useState(0);
+  const [green, setGreen] = useState(0);
+  const [blue, setBlue] = useState(0);
 
   const inputColor = rgbToHex(red, green, blue);
 
