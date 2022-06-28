@@ -23,4 +23,4 @@
 
 - Change font color from white->black when inputColor is too bright
 
-- Make pressing the needle icon change the color to a random color
+- ~~Make pressing the needle icon change the color to a random color~~

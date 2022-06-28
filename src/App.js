@@ -7,12 +7,20 @@ import AppHeading from "./components/AppHeading";
 import ColorInputs from "./components/ColorInputs";
 import "./App.css";
 
+const RGB_MAX = 255;
+
 const App = () => {
-  const [red, setRed] = useState(getRandomInt(255));
-  const [green, setGreen] = useState(getRandomInt(255));
-  const [blue, setBlue] = useState(getRandomInt(255));
+  const [red, setRed] = useState(getRandomInt(RGB_MAX));
+  const [green, setGreen] = useState(getRandomInt(RGB_MAX));
+  const [blue, setBlue] = useState(getRandomInt(RGB_MAX));
 
   const inputColor = rgbToHex(red, green, blue);
+
+  const randomizeColor = () => {
+    setRed(getRandomInt(RGB_MAX));
+    setGreen(getRandomInt(RGB_MAX));
+    setBlue(getRandomInt(RGB_MAX));
+  };
 
   return (
     <HelmetProvider>
@@ -20,7 +28,7 @@ const App = () => {
         <meta name="theme-color" content={inputColor} />
       </Helmet>
       <AppContainer inputColor={inputColor}>
-        <AppHeading inputColor={inputColor} />
+        <AppHeading inputColor={inputColor} onEmojiClick={randomizeColor}/>
         <ColorInputs
           inputColor={inputColor}
           values={{ red, green, blue }}
