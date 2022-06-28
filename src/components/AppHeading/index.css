@@ -1,9 +1,14 @@
 .app-heading {
-  text-align: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  
   margin: 16px 16px 32px 16px;
   
   padding: 16px;
+  
+  color: white;
 
   border: 2px solid black;
   border-radius: 16px;

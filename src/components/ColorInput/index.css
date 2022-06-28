@@ -1,11 +1,33 @@
 .color-input {
   display: flex;
+  flex-direction: column;
 
-  justify-content: space-evenly;
+  flex: 1;
+  
+  text-align: center;
+}
 
-  margin: 0 16px 32px 16px;
+.color-input-heading {
+  margin-bottom: 4px;
 
-  padding: 8px;
+  color: white;
+}
 
+.number-input {
+  max-width: 5ch;
+
+  align-self: center;
+
+  font-size: 2rem;
+  text-align: center;
+
+  margin-bottom: 4px;
+
+  border: none;
   border-radius: 16px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+.number-input:focus {
+  outline: none;
 }
