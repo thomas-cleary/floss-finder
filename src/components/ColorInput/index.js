@@ -19,10 +19,7 @@ const ColorInput = (props) => {
 
   return (
     <div className='color-input'>
-      <h2 
-      className='color-input-heading'
-      style={{color: props.inputColor === "#000000" ? 'white' : props.inputColor}}
-      >{ props.label }</h2>
+      <h2 className='color-input-heading'>{ props.label }</h2>
       <input 
       className='number-input' 
       value={props.value}
