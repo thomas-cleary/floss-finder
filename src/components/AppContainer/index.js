@@ -3,7 +3,9 @@ import './index.css';
 const AppContainer = (props) => {
 
   return (
-    <div className='app'>
+    <div 
+    className='app'
+    style={{ backgroundColor: props.inputColor }}>
       {props.children}
     </div>
   );
