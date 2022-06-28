@@ -1,11 +1,10 @@
-import { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-import rgbToHex from './utils/rgbToHex';
-import AppContainer from './components/AppContainer';
-import AppHeading from './components/AppHeading';
-import ColorInputs from './components/ColorInputs';
-import './App.css';
-
+import { useState } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import rgbToHex from "./utils/rgbToHex";
+import AppContainer from "./components/AppContainer";
+import AppHeading from "./components/AppHeading";
+import ColorInputs from "./components/ColorInputs";
+import "./App.css";
 
 const App = () => {
   const [red, setRed] = useState(0);
@@ -18,13 +17,13 @@ const App = () => {
     <HelmetProvider>
       <AppContainer inputColor={inputColor}>
         <Helmet>
-          <meta name='theme-color' content={inputColor} />
+          <meta name="theme-color" content={inputColor} />
         </Helmet>
         <AppHeading inputColor={inputColor} />
-        <ColorInputs 
-        inputColor={inputColor} 
-        values={{ red, green, blue }}
-        onChange={{setRed, setGreen, setBlue}}
+        <ColorInputs
+          inputColor={inputColor}
+          values={{ red, green, blue }}
+          onChange={{ setRed, setGreen, setBlue }}
         />
       </AppContainer>
     </HelmetProvider>
