@@ -5,9 +5,24 @@ import './index.css';
 const ColorInputs = (props) => {
   return (
     <div className='color-inputs dark-bg'>
-      <ColorInput color={props.inputColor} value={props.values.red} label='R' />
-      <ColorInput color={props.inputColor} value={props.values.green} label='G' />
-      <ColorInput color={props.inputColor} value={props.values.blue} label='B' />
+      <ColorInput 
+      color={props.inputColor} 
+      value={props.values.red} 
+      label='R' 
+      onChange={props.onChange.setRed}
+      />
+      <ColorInput 
+      color={props.inputColor} 
+      value={props.values.green} 
+      label='G' 
+      onChange={props.onChange.setGreen}
+      />
+      <ColorInput 
+      color={props.inputColor} 
+      value={props.values.blue} 
+      label='B' 
+      onChange={props.onChange.setBlue}
+      />
     </div>
   );
 };

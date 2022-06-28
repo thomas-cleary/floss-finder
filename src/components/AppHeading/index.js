@@ -7,7 +7,7 @@ const AppHeading = (props) => {
         floss&nbsp;
       </h1>
       <h1>
-        <span className='emoji' style={{ textShadow: '0 0 0' + props.inputColor }}>
+        <span className='emoji' style={{ textShadow: '0 0 0 ' + props.inputColor }}>
           🪡
         </span> 
       </h1>
