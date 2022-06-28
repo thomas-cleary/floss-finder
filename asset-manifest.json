@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/floss-finder/static/css/main.977bc5e1.css",
+    "main.js": "/floss-finder/static/js/main.c91c5024.js",
+    "index.html": "/floss-finder/index.html",
+    "main.977bc5e1.css.map": "/floss-finder/static/css/main.977bc5e1.css.map",
+    "main.c91c5024.js.map": "/floss-finder/static/js/main.c91c5024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.977bc5e1.css",
+    "static/js/main.c91c5024.js"
+  ]
+}
