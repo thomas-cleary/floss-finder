@@ -1,17 +1,23 @@
+import { RGB_MAX, RGB_MIN } from "../../utils/constants";
 import "./index.css";
 
-const isValidRgbValue = (input) => {
+const isValidInput = (input) => {
   const isNotNan = !Number.isNaN(input);
-  const isInRgbRange = input <= 255 && input >= 0;
+  // Other rules
 
-  return isNotNan && isInRgbRange;
+  return isNotNan;
+};
+
+const constrainToRgbValues = (input) => {
+  return input <= RGB_MIN ? RGB_MIN : input >= RGB_MAX ? RGB_MAX : input;
 };
 
 const ColorInput = (props) => {
   const onNumberChange = (event) => {
-    const input = Number(event.target.value);
-    isValidRgbValue(input)
-      ? props.onChange(input)
+    const input = Number(event.target.value); // Number("") is 0
+
+    isValidInput(input)
+      ? props.onChange(constrainToRgbValues(input))
       : console.log("Invalid input");
   };
 
@@ -23,7 +29,6 @@ const ColorInput = (props) => {
         value={props.value}
         type="tel"
         maxLength="3"
-        minLength="1"
         onChange={onNumberChange}
       />
     </div>

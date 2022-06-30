@@ -1,13 +1,12 @@
 import { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { getRandomInt } from "./utils/random";
+import { RGB_MAX } from "./utils/constants";
 import rgbToHex from "./utils/rgbToHex";
 import AppContainer from "./components/AppContainer";
 import AppHeading from "./components/AppHeading";
 import ColorInputs from "./components/ColorInputs";
 import "./App.css";
-
-const RGB_MAX = 255;
 
 const App = () => {
   const [red, setRed] = useState(getRandomInt(RGB_MAX));
@@ -28,7 +27,7 @@ const App = () => {
         <meta name="theme-color" content={inputColor} />
       </Helmet>
       <AppContainer inputColor={inputColor}>
-        <AppHeading inputColor={inputColor} onEmojiClick={randomizeColor}/>
+        <AppHeading inputColor={inputColor} onEmojiClick={randomizeColor} />
         <ColorInputs
           inputColor={inputColor}
           values={{ red, green, blue }}
