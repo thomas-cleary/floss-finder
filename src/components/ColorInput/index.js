@@ -26,7 +26,6 @@ const ColorInput = (props) => {
       <h2 className="color-input-heading">{props.label}</h2>
       <input
         className="number-input"
-        style={{borderColor: props.inputColor}}
         value={props.value}
         type="tel"
         maxLength="3"

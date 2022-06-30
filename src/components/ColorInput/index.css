@@ -23,12 +23,11 @@
 
   margin-bottom: 4px;
 
-
-  border: 2px solid;
+  border: none;
   border-radius: 8px;
 
   color: white;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 .number-input:focus {
   outline: none;
