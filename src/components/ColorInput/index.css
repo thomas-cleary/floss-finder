@@ -28,8 +28,8 @@
   border: none;
   border-radius: 8px;
 
-  color: white;
-  background-color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.8);
+  background-color: white;
 }
 .number-input:focus {
   outline: none;
