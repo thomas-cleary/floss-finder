@@ -21,14 +21,16 @@
 
 - Add toggle to switch between DMC and Anchor floss
 
-- Pick a font style
-
-- Change font color from white->black when inputColor is too bright
+- ~~Pick a font style~~
 
 - ~~Make pressing the needle icon change the color to a random color~~
 
 - Create a thread needle SVG that animates on page load / click
 
-- Set meta tag 'theme-color' for both prefers light and dark: 
-    - ```<meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">```
-    - ```<meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)">```
+- Manage color better
+    - Invert background colors and needle emoji when too dark
+    - Use dark input background color for light input colors and light for dark input colors
+    - Change caret-color to input color except invert when too dark or bright
+    - Set meta tag 'theme-color' for both prefers light and dark: 
+        - ```<meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">```
+        - ```<meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)">```
