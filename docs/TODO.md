@@ -2,11 +2,13 @@
 
 - ~~Make entering an RGB value greater than 255 default to 255 eg 345 -> 255~~
 
-- Create ColorMatch component
-    - Use mock props
+- ~~Create ColorMatch component~~
+    - ~~Use mock props~~
 
 - Create ColorMatchList component
     - Use mock props
+    - Make it a scrollable div with as many color match components as you want
+        - Make div take up same portion of screen for any device but still scrollable
 
 - Get DMC floss RGB values and store appriately
     - const hashmap?
