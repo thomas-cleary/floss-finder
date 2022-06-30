@@ -23,12 +23,15 @@ const ColorInput = (props) => {
 
   return (
     <div className="color-input">
-      <h2 className="color-input-heading">{props.label}</h2>
+      <label for={props.label.concat('input')}>
+        <h2 className="color-input-heading">{props.label}</h2>
+      </label>
       <input
         className="number-input"
         value={props.value}
         type="tel"
         maxLength="3"
+        id={props.label.concat('input')}
         onChange={onNumberChange}
       />
     </div>
