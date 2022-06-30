@@ -24,7 +24,9 @@ const App = () => {
   return (
     <HelmetProvider>
       <Helmet>
-        <meta name="theme-color" content={inputColor} />
+        {/* TODO: Adjust colour to work with prefered color scheme */}
+        <meta name="theme-color" content={inputColor} media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content={inputColor} media="(prefers-color-scheme: dark)" />
       </Helmet>
       <AppContainer inputColor={inputColor}>
         <AppHeading inputColor={inputColor} onEmojiClick={randomizeColor} />
