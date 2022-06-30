@@ -22,3 +22,6 @@
 .emoji {
   color: transparent;
 }
+.emoji:hover {
+  cursor: pointer;
+}
