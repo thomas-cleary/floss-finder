@@ -2,8 +2,6 @@
 
 - ~~Make entering an RGB value greater than 255 default to 255 eg 345 -> 255~~
 
-- ~~Fix inputs to have dark-bg and white font link in design~~
-
 - Create ColorMatch component
     - Use mock props
 
