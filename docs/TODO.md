@@ -10,7 +10,9 @@
 
 - Create distance function from rgb -> rgb
 
-- Add derived state to ColorMatchList to create ColorMatch components for best 5 matches
+- Render ColorMatchList to contain all matches
+
+- Make margins for components larger for non mobile devices
 
 - Get Anchor data
 
