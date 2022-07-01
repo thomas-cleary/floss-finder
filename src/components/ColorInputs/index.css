@@ -4,11 +4,7 @@
 
   justify-content: space-evenly;
 
-  gap: 4px;
-
-  margin-bottom: 16px;
-  
-  width: clamp(320px, 50vw, 700px);
+  gap: 2px;
 
   padding: 8px;
 
