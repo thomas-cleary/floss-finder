@@ -7,7 +7,7 @@ const AppHeading = (props) => {
       <h1>
         <span
           className="emoji"
-          style={{ textShadow: "0 0 0 " + props.inputColor }}
+          style={{ textShadow: "0 0 0 white" }}
           onClick={props.onEmojiClick}
         >
           🪡

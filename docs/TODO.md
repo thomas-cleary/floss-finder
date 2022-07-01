@@ -25,6 +25,7 @@
 - Manage color better
     - Invert background colors and needle emoji when too dark
     - Use dark input background color for light input colors and light for dark input colors
+        - Use rgba(255, 255, 255, 0.1) for border / bg color for dark matches
     - Change caret-color to input color except invert when too dark or bright
     - Set meta tag 'theme-color' for both prefers light and dark: 
         - ```<meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">```

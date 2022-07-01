@@ -30,6 +30,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
 
   return (
     <div className="color-match-list dark-bg">
+      <h1 className="color-match-list-heading">matches</h1>
       <ColorMatch
         matchedColor={rgbToHex(
           Math.min(red + 10, RGB_MAX),
