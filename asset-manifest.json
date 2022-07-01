@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/floss-finder/static/css/main.5add9aa5.css",
-    "main.js": "/floss-finder/static/js/main.2cc6bed9.js",
+    "main.css": "/floss-finder/static/css/main.6058904e.css",
+    "main.js": "/floss-finder/static/js/main.f4222474.js",
     "index.html": "/floss-finder/index.html",
-    "main.5add9aa5.css.map": "/floss-finder/static/css/main.5add9aa5.css.map",
-    "main.2cc6bed9.js.map": "/floss-finder/static/js/main.2cc6bed9.js.map"
+    "main.6058904e.css.map": "/floss-finder/static/css/main.6058904e.css.map",
+    "main.f4222474.js.map": "/floss-finder/static/js/main.f4222474.js.map"
   },
   "entrypoints": [
-    "static/css/main.5add9aa5.css",
-    "static/js/main.2cc6bed9.js"
+    "static/css/main.6058904e.css",
+    "static/js/main.f4222474.js"
   ]
 }
