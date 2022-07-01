@@ -1,7 +1,5 @@
 # TODO: floss-finder
 
-- Make it more obvious that needle icon is a button
-
 - Create ColorMatchList component
     - Use mock props
     - Make it a scrollable div with as many color match components as you want
@@ -37,3 +35,4 @@
 - ~~Pick a font style~~
 - ~~Make pressing the needle icon change the color to a random color~~
 - ~~Add max width to components by using clamp (make responsive for desktops)~~
+- ~~Make it more obvious that needle icon is a button~~

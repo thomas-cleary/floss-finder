@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   
   justify-content: center;
+
+  gap: 8px;
   
   /* margin: 16px 16px 16px 16px; */
   margin: 32px;
@@ -24,7 +26,11 @@
 
 .emoji {
   color: transparent;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+  padding: 4px 8px 4px 8px;
 }
 .emoji:hover {
   cursor: pointer;
+  color: white; /* Get rid of custom emoji color */
 }
