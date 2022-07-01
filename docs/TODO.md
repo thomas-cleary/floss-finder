@@ -6,6 +6,8 @@
         - Make div take up same portion of screen for any device but still scrollable
 
 - Add a footer to the page
+    - Include link to repo
+    - Add info button to display model explaining what this is for
 
 - Get DMC floss RGB values and store appriately
     - const hashmap?
