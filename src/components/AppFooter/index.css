@@ -1,0 +1,10 @@
+.footer {
+  justify-self: flex-end;
+  
+  text-align: center;
+
+  padding: 4px;
+
+  color: white;
+
+}

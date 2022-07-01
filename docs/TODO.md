@@ -1,13 +1,12 @@
 # TODO: floss-finder
 
-- Create ColorMatchList component
-    - Use mock props
-    - Make it a scrollable div with as many color match components as you want
-        - Make div take up same portion of screen for any device but still scrollable
-
 - Add a footer to the page
-    - Include link to repo
-    - Add info button to display model explaining what this is for
+    - Include link to repo using GitHub icon
+    - Add info button to display modal explaining what this is for
+
+
+- Add onclick event to match lister header
+    - when clicked, scroll to top of list
 
 - Get DMC floss RGB values and store appriately
     - const hashmap?
@@ -42,3 +41,7 @@
 - ~~Add max width to components by using clamp (make responsive for desktops)~~
 - ~~Make it more obvious that needle icon is a button~~
 - ~~Instead of clamping size of components, clamp size of AppContainer and let components fill its width~~
+- ~~Create ColorMatchList component~~
+    - ~~Use mock props~~
+    - ~~Make it a scrollable div with as many color match components as you want~~
+        - ~~Make div take up same portion of screen for any device but still scrollable~~

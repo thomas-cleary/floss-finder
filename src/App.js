@@ -7,6 +7,7 @@ import AppContainer from "./components/AppContainer";
 import AppHeading from "./components/AppHeading";
 import ColorInputs from "./components/ColorInputs";
 import ColorMatchList from "./components/ColorMatchList";
+import AppFooter from "./components/AppFooter";
 import "./App.css";
 
 const App = () => {
@@ -50,6 +51,7 @@ const App = () => {
           blue={blue}
           inputColor={inputColor}
         />
+        <AppFooter />
       </AppContainer>
     </HelmetProvider>
   );
