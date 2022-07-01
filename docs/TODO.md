@@ -1,5 +1,7 @@
 # TODO: floss-finder
 
+- Instead of clamping size of components, clamp size of AppContainer and let components fill its width
+
 - Create ColorMatchList component
     - Use mock props
     - Make it a scrollable div with as many color match components as you want
