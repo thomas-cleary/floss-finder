@@ -29,5 +29,6 @@
 }
 .emoji:hover {
   cursor: pointer;
-  color: white; /* Get rid of custom emoji color */
+  position: relative;
+  top: 2px;
 }
