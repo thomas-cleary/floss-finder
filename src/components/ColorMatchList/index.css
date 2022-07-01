@@ -1,3 +1,16 @@
-#color-match-list {
-  overflow-y: auto;
+.color-match-list {
+  overflow-y: scroll;
+  
+  border: 8px solid rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
 }
+
+.color-match-list::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+

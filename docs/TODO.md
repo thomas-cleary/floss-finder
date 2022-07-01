@@ -5,6 +5,8 @@
     - Make it a scrollable div with as many color match components as you want
         - Make div take up same portion of screen for any device but still scrollable
 
+- Add a footer to the page
+
 - Get DMC floss RGB values and store appriately
     - const hashmap?
 

@@ -1,11 +1,14 @@
 .app-container {
   display: flex;
   justify-content: center;
+
+  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .app {
-  max-height: 100vh;
-  min-height: 100vh;
+  max-height: 90vh;
+  min-height: 90vh;
 
   display: flex;
   flex-direction: column;

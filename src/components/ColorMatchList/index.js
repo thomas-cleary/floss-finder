@@ -29,7 +29,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
   };
 
   return (
-    <div id="color-match-list">
+    <div className="color-match-list dark-bg">
       <ColorMatch
         matchedColor={rgbToHex(
           Math.min(red + 10, RGB_MAX),
@@ -57,7 +57,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
         dmcCode="3412"
         similarity="45"
       />
-      {getRandomMatches(12)}
+      {getRandomMatches(9)}
     </div>
   );
 };
