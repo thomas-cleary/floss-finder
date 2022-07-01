@@ -4,7 +4,7 @@
     - Include link to repo using GitHub icon
     - Add info button to display modal explaining what this is for
 
-- Add onclick event to match lister header
+- Add up arrow icon in matches heading
     - when clicked, scroll to top of list
 
 - Get DMC floss RGB values and store appriately
