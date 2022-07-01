@@ -44,18 +44,30 @@ const App = () => {
           values={{ red, green, blue }}
           onChange={{ setRed, setGreen, setBlue }}
         />
-        <ColorMatch 
-          matchedColor={rgbToHex(Math.min(red + 10, RGB_MAX), Math.min(green - 10 < 0 ? 0 : green - 10, RGB_MAX), Math.min(blue + 10, RGB_MAX))} 
+        <ColorMatch
+          matchedColor={rgbToHex(
+            Math.min(red + 10, RGB_MAX),
+            Math.min(green - 10 < 0 ? 0 : green - 10, RGB_MAX),
+            Math.min(blue + 10, RGB_MAX)
+          )}
           dmcCode="1234"
           similarity="94"
         />
-        <ColorMatch 
-          matchedColor={rgbToHex(Math.min(red + 20, RGB_MAX), Math.min(green + 20, RGB_MAX), Math.min(blue - 20 < 0 ? 0 : blue - 20, RGB_MAX))} 
+        <ColorMatch
+          matchedColor={rgbToHex(
+            Math.min(red + 20, RGB_MAX),
+            Math.min(green + 20, RGB_MAX),
+            Math.min(blue - 20 < 0 ? 0 : blue - 20, RGB_MAX)
+          )}
           dmcCode="2341"
           similarity="77"
         />
-        <ColorMatch 
-          matchedColor={rgbToHex(Math.min(red - 30 < 0 ? 0 : red - 30, RGB_MAX), Math.min(green + 30, RGB_MAX), Math.min(blue + 30, RGB_MAX))} 
+        <ColorMatch
+          matchedColor={rgbToHex(
+            Math.min(red - 30 < 0 ? 0 : red - 30, RGB_MAX),
+            Math.min(green + 30, RGB_MAX),
+            Math.min(blue + 30, RGB_MAX)
+          )}
           dmcCode="3412"
           similarity="45"
         />

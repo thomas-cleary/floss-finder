@@ -2,13 +2,11 @@ import "./index.css";
 
 const AppContainer = (props) => {
   return (
-    <div 
+    <div
       className="app-container"
       style={{ backgroundColor: props.inputColor }}
     >
-      <div className="app">
-        {props.children}
-      </div>
+      <div className="app">{props.children}</div>
     </div>
   );
 };

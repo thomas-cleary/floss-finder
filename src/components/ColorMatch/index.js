@@ -2,7 +2,7 @@ import "./index.css";
 
 const ColorMatch = (props) => {
   return (
-    <div 
+    <div
       className="color-match"
       style={{ backgroundColor: props.matchedColor }}
     >
