@@ -1,4 +1,4 @@
-import ColorInput from "../ColorInput";
+import ColorInput from "./ColorInput";
 import "./index.css";
 
 const ColorInputs = (props) => {

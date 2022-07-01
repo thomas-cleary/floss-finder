@@ -1,4 +1,4 @@
-import { RGB_MAX, RGB_MIN } from "../../utils/constants";
+import { RGB_MAX, RGB_MIN } from "../../../utils/constants";
 import "./index.css";
 
 const isValidInput = (input) => {
