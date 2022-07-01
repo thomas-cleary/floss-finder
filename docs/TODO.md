@@ -4,7 +4,6 @@
     - Include link to repo using GitHub icon
     - Add info button to display modal explaining what this is for
 
-
 - Add onclick event to match lister header
     - when clicked, scroll to top of list
 
@@ -14,6 +13,10 @@
 - Create distance function from rgb -> rgb
 
 - Render ColorMatchList to contain all matches
+
+- Add settings button (to footer?) that opens a modal with options
+    - Number of matches?
+    - Distance function?
 
 - Get Anchor data
 
