@@ -1,4 +1,6 @@
 .color-match-list {
+  flex: 1;
+
   overflow-y: scroll;
 
   /* padding: 16px 0px 16px 0px; */

@@ -58,7 +58,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
         dmcCode="3412"
         similarity="45"
       />
-      {getRandomMatches(9)}
+      {getRandomMatches(100)}
     </div>
   );
 };
