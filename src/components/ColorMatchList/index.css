@@ -8,9 +8,9 @@
   border-radius: 16px;
 }
 
-.color-match-list::-webkit-scrollbar {
+/* .color-match-list::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .color-match-list-heading {
   color: white;
