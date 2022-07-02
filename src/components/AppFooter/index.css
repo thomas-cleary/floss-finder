@@ -1,10 +1,19 @@
 .footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   justify-self: flex-end;
   
   text-align: center;
 
-  padding: 4px;
+  padding: 8px;
 
+  font-size: 1.25rem;
   color: white;
 
+}
+
+.icon {
+  color: white;
+  padding: 4px;
 }

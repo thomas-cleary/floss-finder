@@ -1,7 +1,7 @@
 # TODO: floss-finder
 
 - Add a footer to the page
-    - Include link to repo using GitHub icon
+    - ~~Include link to repo using GitHub icon~~
     - Add info button to display modal explaining what this is for
 
 - Add up arrow icon in matches heading
