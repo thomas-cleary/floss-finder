@@ -9,6 +9,8 @@ const AppFooter = (props) => {
       <a
         className="icon"
         href="https://github.com/thomas-cleary"
+        rel="noreferrer"
+        target="_blank"
         onMouseEnter={changeColorToInput}
         onMouseLeave={changeColorToWhite}
       >

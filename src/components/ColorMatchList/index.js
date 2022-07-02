@@ -19,8 +19,8 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
             getRandomInt(RGB_MAX),
             getRandomInt(RGB_MAX)
           )}
-          dmcCode="random"
-          similarity="0"
+          dmcCode={getRandomInt(4000).toString()}
+          similarity={getRandomInt(44).toString()}
           colorName="random color name"
         />
       );
@@ -38,8 +38,8 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
           Math.min(green - 10 < 0 ? 0 : green - 10, RGB_MAX),
           Math.min(blue + 10, RGB_MAX)
         )}
-        dmcCode="1234"
-        similarity="94"
+        dmcCode={getRandomInt(4000).toString()}
+        similarity={getRandomInt(100).toString()}
         colorName="color name"
       />
       <ColorMatch
@@ -48,8 +48,8 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
           Math.min(green + 20, RGB_MAX),
           Math.min(blue - 20 < 0 ? 0 : blue - 20, RGB_MAX)
         )}
-        dmcCode="2341"
-        similarity="77"
+        dmcCode={getRandomInt(4000).toString()}
+        similarity={getRandomInt(100).toString()}
         colorName="color name"
       />
       <ColorMatch
@@ -58,8 +58,8 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
           Math.min(green + 30, RGB_MAX),
           Math.min(blue + 30, RGB_MAX)
         )}
-        dmcCode="3412"
-        similarity="45"
+        dmcCode={getRandomInt(4000).toString()}
+        similarity={getRandomInt(100).toString()}
         colorName="color name"
       />
       {getRandomMatches(100)}
