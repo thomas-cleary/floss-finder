@@ -7,8 +7,6 @@
 - Add up arrow icon in matches heading
     - when clicked, scroll to top of list
 
-- Get DMC floss RGB values and store appriately
-    - const hashmap?
 
 - Create distance function from rgb -> rgb
 
@@ -48,3 +46,4 @@
     - ~~Use mock props~~
     - ~~Make it a scrollable div with as many color match components as you want~~
         - ~~Make div take up same portion of screen for any device but still scrollable~~
+- ~~Get DMC floss RGB values and store in JSON file~~

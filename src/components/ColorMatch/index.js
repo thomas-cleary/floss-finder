@@ -7,8 +7,11 @@ const ColorMatch = (props) => {
       style={{ backgroundColor: props.matchedColor }}
     >
       <div className="color-match-info">
-        <p>{props.dmcCode}</p>
-        <p>{props.similarity}%</p>
+        <p className="info-heading">{props.colorName}</p>
+        <div className="info">
+          <p className="info">{props.dmcCode}</p>
+          <p className="info">{props.similarity}%</p>
+        </div>
       </div>
     </div>
   );

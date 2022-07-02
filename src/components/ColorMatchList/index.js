@@ -21,6 +21,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
           )}
           dmcCode="random"
           similarity="0"
+          colorName="random color name"
         />
       );
     }
@@ -39,6 +40,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
         )}
         dmcCode="1234"
         similarity="94"
+        colorName="color name"
       />
       <ColorMatch
         matchedColor={rgbToHex(
@@ -48,6 +50,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
         )}
         dmcCode="2341"
         similarity="77"
+        colorName="color name"
       />
       <ColorMatch
         matchedColor={rgbToHex(
@@ -57,6 +60,7 @@ const ColorMatchList = ({ red, green, blue, inputColor }) => {
         )}
         dmcCode="3412"
         similarity="45"
+        colorName="color name"
       />
       {getRandomMatches(100)}
     </div>

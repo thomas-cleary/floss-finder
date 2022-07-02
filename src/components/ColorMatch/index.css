@@ -20,11 +20,12 @@
 
 .color-match-info {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  flex: 1;
 
-  justify-content: space-evenly;
-  align-items: center;
+  gap: 8px;
+
+  flex: 1;
 
   font-size: 1.25rem;
 
@@ -35,4 +36,17 @@
   border-radius: 8px;
 
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.info-heading {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  gap: 8px;
 }
