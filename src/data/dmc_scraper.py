@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from rich import print
 
 
-def main():
+def main() -> None:
     FLOSS_INFO_URL = "https://floss.maxxmint.com/dmc_to_rgb.php?color=&ob=dmc"
 
     floss_info_html = requests.get(FLOSS_INFO_URL).text
