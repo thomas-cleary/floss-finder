@@ -10,6 +10,8 @@
 - Add up arrow icon in matches heading
     - when clicked, scroll to top of list
 
+- Add RGB value to ColorMatch component
+
 - Add a footer to the page
     - Include link to repo (when public)
         - ~~Link to profile for now while repo is private~~
@@ -20,6 +22,9 @@
         - Shuffle for random color
         - Info button - show in main panel
         - Settings - show in main panel
+
+- Make DMC code in ColorMatch component a link to the DMC page
+    - See if its possible to automatically input the code in the search via the link
 
 - Manage color better
     - Invert background colors and needle emoji when too dark
