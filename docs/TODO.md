@@ -1,5 +1,12 @@
 # TODO: floss-finder
 
+- Add Anchor codes to ColoMatches
+
+- Use a better color distance function
+    - http://godsnotwheregodsnot.blogspot.com/2012/09/color-space-comparisons.html?m=1
+
+- Add transitions on input change
+
 - Add up arrow icon in matches heading
     - when clicked, scroll to top of list
 
@@ -13,21 +20,6 @@
         - Info button - show in main panel
         - Settings - show in main panel
 
-- Make DMC code in ColorMatch component a link to the DMC page
-    - See if its possible to automatically input the code in the search via the link
-
-- Manage color better
-    - Invert background colors and needle emoji when too dark
-    - Use dark input background color for light input colors and light for dark input colors
-        - Use rgba(255, 255, 255, 0.1) for border / bg color for dark matches
-    - Change caret-color to input color except invert when too dark or bright
-    - Set meta tag 'theme-color' for both prefers light and dark: 
-        - ```<meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">```
-        - ```<meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)">```
-
-- Add transitions on input change
-
-- Add other flosss brand codes
 
 ## Done
 - ~~Make entering an RGB value greater than 255 default to 255 eg 345 -> 255~~
