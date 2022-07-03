@@ -6,13 +6,11 @@
 
   gap: 8px;
   padding: 8px;
-  
-  text-align: center;
 
+  text-align: center;
 
   font-size: 1.25rem;
   color: white;
-
 }
 
 .footer-section {
@@ -32,4 +30,3 @@
 .footer-icon {
   text-decoration: none;
 }
-

@@ -51,9 +51,7 @@ const App = () => {
           blue={blue}
           inputColor={inputColor}
         />
-        <AppFooter
-          inputColor={inputColor} 
-        />
+        <AppFooter inputColor={inputColor} />
       </AppContainer>
     </HelmetProvider>
   );
