@@ -27,11 +27,8 @@ const getDmcMatches = (color) => {
         Math.round((100 - (distance * 100) / MAX_RGB_DISTANCE) * 100) / 100,
     };
   });
-  matches.sort(compareDistance);
+  return matches.sort(compareDistance).slice(0, 10);
 
-  const filteredMatches = matches.filter((color) => color.similarity >= 90);
-
-  return filteredMatches.length >= 10 ? filteredMatches : matches.slice(0, 10);
 };
 
 export default getDmcMatches;

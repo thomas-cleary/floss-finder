@@ -1,6 +1,5 @@
 # TODO: floss-finder
 
-
 - Add up arrow icon in matches heading
     - when clicked, scroll to top of list
 
