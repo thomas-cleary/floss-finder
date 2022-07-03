@@ -8,8 +8,8 @@
   padding: 8px;
 
   margin-bottom: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
 
   border: 8px solid rgba(0, 0, 0, 0.5);
   border-radius: 16px;
@@ -22,15 +22,13 @@
   flex-direction: column;
   flex-wrap: wrap;
 
-  gap: 8px;
-
   flex: 1;
 
   font-size: 1.25rem;
 
   padding: 8px;
 
-  margin: 8px 16px 8px 16px;
+  margin: 8px 8px 8px 8px;
 
   border-radius: 8px;
 
@@ -54,18 +52,22 @@
   justify-content: space-evenly;
 
   gap: 8px;
-
-  padding: 4px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1 1 0;
   gap: 4px;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .info-label {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }

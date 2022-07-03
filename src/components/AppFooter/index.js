@@ -29,7 +29,7 @@ const AppFooter = (props) => {
           className="fa-solid fa-horse-head footer-icon"
           style={{ color: props.inputColor }}
         ></i>
-        <span className="footer-text">DMC floss</span>
+        <span className="footer-text">dmc floss</span>
       </a>
     </div>
   );

@@ -10,7 +10,7 @@ const ColorMatch = (props) => {
         <p className="info-heading">{props.colorName}</p>
         <div className="info-boxes">
           <div className="info">
-            <span className="info-label">DMC </span>
+            <div className="info-label">dmc </div>
             {props.dmcCode}
           </div>
           <div className="info">

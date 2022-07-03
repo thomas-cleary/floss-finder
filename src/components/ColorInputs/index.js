@@ -7,19 +7,19 @@ const ColorInputs = (props) => {
       <ColorInput
         inputColor={props.inputColor}
         value={props.values.red}
-        label="R"
+        label="r"
         onChange={props.onChange.setRed}
       />
       <ColorInput
         inputColor={props.inputColor}
         value={props.values.green}
-        label="G"
+        label="g"
         onChange={props.onChange.setGreen}
       />
       <ColorInput
         inputColor={props.inputColor}
         value={props.values.blue}
-        label="B"
+        label="b"
         onChange={props.onChange.setBlue}
       />
     </div>

@@ -7,7 +7,9 @@
 - Add up arrow icon in matches heading
     - when clicked, scroll to top of list
 
-- Add RGB value to ColorMatch component
+- Add sliders to RGB inputs
+
+- Add an option to 'flip' ColorMatch info to show rgb and hex values
 
 - Add a footer to the page
     - Include link to repo (when public)
