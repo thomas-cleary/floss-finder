@@ -1,8 +1,5 @@
 # TODO: floss-finder
 
-- Create distance function from rgb -> rgb
-
-- Render ColorMatchList to contain all matches
 
 - Add up arrow icon in matches heading
     - when clicked, scroll to top of list
@@ -54,3 +51,5 @@
 - ~~Get DMC floss RGB values and store in JSON file~~
 - ~~Fix view height issue on mobile where browser bars included in 100vh~~
     - ~~https://css-tricks.com/the-trick-to-viewport-units-on-mobile/~~
+- ~~Create distance function from rgb -> rgb~~
+- ~~Render ColorMatchList to contain all matches~~

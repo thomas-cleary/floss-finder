@@ -23,7 +23,7 @@ const ColorInput = (props) => {
 
   return (
     <div className="color-input">
-      <label for={props.label.concat("input")}>
+      <label htmlFor={props.label.concat("input")}>
         <h2 className="color-input-heading">{props.label}</h2>
       </label>
       <input
