@@ -6,26 +6,32 @@ const AppFooter = (props) => {
 
   return (
     <div className="footer dark-bg">
-      <a
-        className="icon"
+      <a 
+        className="footer-section"
         href="https://github.com/thomas-cleary"
         rel="noreferrer"
         target="_blank"
-        onMouseEnter={changeColorToInput}
-        onMouseLeave={changeColorToWhite}
       >
-        <i className="fa fa-github"></i>
+        <i 
+          className="fa-brands fa-github footer-icon"
+          style={{ color: props.inputColor }}
+        >
+        </i>
+        <span className="footer-text">thomas-cleary</span>
       </a>
-      <i
-        className="fa fa-info-circle icon"
-        onMouseEnter={changeColorToInput}
-        onMouseLeave={changeColorToWhite}
-      ></i>
-      <i
-        className="fa fa-cog icon"
-        onMouseEnter={changeColorToInput}
-        onMouseLeave={changeColorToWhite}
-      ></i>
+      <a 
+        className="footer-section"
+        href="https://www.dmc.com/us/six-strand-embroidery-floss-9003292.html#null"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i 
+        className="fa-solid fa-horse-head footer-icon"
+        style={{ color: props.inputColor }}
+        >
+        </i>
+        <span className="footer-text">DMC floss</span>
+      </a>
     </div>
   );
 };

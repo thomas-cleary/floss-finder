@@ -1,26 +1,25 @@
 # TODO: floss-finder
 
-
-- Add up arrow icon in matches heading
-    - when clicked, scroll to top of list
+- Fix view height issue on mobile where browser bars included in 100vh
+    - https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
 
 - Create distance function from rgb -> rgb
 
 - Render ColorMatchList to contain all matches
 
-- Fix view height issue on mobile where browser bars included in 100vh
-    - https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
+- Add up arrow icon in matches heading
+    - when clicked, scroll to top of list
 
 - Add a footer to the page
-    - Include link to repo using GitHub icon
+    - Include link to repo (when public)
         - ~~Link to profile for now while repo is private~~
-    - Add info button to change center panel to show app description
-    - Add settings button to change center panel to offer options
-        - Number of matches?
-        - Distance function?
-        - Floss brands?
+        - ~~Link to DMC floss site~~
 
-- Create a thread needle SVG that animates on page load / click
+- Change needle emoji to have down arrow as well
+    - On click show drop down menu of options
+        - Shuffle for random color
+        - Info button - show in main panel
+        - Settings - show in main panel
 
 - Manage color better
     - Invert background colors and needle emoji when too dark
