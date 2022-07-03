@@ -1,24 +1,24 @@
 # TODO: floss-finder
 
-- Add a footer to the page
-    - ~~Include link to repo using GitHub icon~~
-    - Add info button to display modal explaining what this is for
 
 - Add up arrow icon in matches heading
     - when clicked, scroll to top of list
-
 
 - Create distance function from rgb -> rgb
 
 - Render ColorMatchList to contain all matches
 
-- Add settings button (to footer?) that opens a modal with options
-    - Number of matches?
-    - Distance function?
+- Fix view height issue on mobile where browser bars included in 100vh
+    - https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
 
-- Get Anchor data
-
-- Add toggle to switch between DMC and Anchor floss
+- Add a footer to the page
+    - Include link to repo using GitHub icon
+        - ~~Link to profile for now while repo is private~~
+    - Add info button to change center panel to show app description
+    - Add settings button to change center panel to offer options
+        - Number of matches?
+        - Distance function?
+        - Floss brands?
 
 - Create a thread needle SVG that animates on page load / click
 
@@ -32,6 +32,8 @@
         - ```<meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)">```
 
 - Add transitions on input change
+
+- Add other flosss brand codes
 
 ## Done
 - ~~Make entering an RGB value greater than 255 default to 255 eg 345 -> 255~~
