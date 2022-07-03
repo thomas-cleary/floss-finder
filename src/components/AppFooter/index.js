@@ -9,7 +9,7 @@ const AppFooter = (props) => {
     <div className="footer dark-bg-small">
       <a
         className="footer-section"
-        href="https://github.com/thomas-cleary"
+        href="https://github.com/thomas-cleary/floss-finder"
         rel="noreferrer"
         target="_blank"
       >

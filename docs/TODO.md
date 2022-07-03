@@ -7,11 +7,6 @@
 
 - Add an option to 'flip' ColorMatch info to show rgb and hex values
 
-- Add a footer to the page
-    - Include link to repo (when public)
-        - ~~Link to profile for now while repo is private~~
-        - ~~Link to DMC floss site~~
-
 - Change needle emoji to have down arrow as well
     - On click show drop down menu of options
         - Shuffle for random color
@@ -52,3 +47,7 @@
     - ~~https://css-tricks.com/the-trick-to-viewport-units-on-mobile/~~
 - ~~Create distance function from rgb -> rgb~~
 - ~~Render ColorMatchList to contain all matches~~
+- ~~Add a footer to the page~~
+    - ~~Include link to repo (when public)~~
+        - ~~Link to profile for now while repo is private~~
+        - ~~Link to DMC floss site~~
