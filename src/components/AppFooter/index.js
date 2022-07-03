@@ -6,7 +6,7 @@ const AppFooter = (props) => {
   const changeColorToWhite = (event) => (event.target.style.color = "white");
 
   return (
-    <div className="footer dark-bg">
+    <div className="footer dark-bg-small">
       <a
         className="footer-section"
         href="https://github.com/thomas-cleary"

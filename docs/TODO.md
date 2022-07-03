@@ -1,8 +1,5 @@
 # TODO: floss-finder
 
-- Fix view height issue on mobile where browser bars included in 100vh
-    - https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
-
 - Create distance function from rgb -> rgb
 
 - Render ColorMatchList to contain all matches
@@ -53,3 +50,5 @@
     - ~~Make it a scrollable div with as many color match components as you want~~
         - ~~Make div take up same portion of screen for any device but still scrollable~~
 - ~~Get DMC floss RGB values and store in JSON file~~
+- ~~Fix view height issue on mobile where browser bars included in 100vh~~
+    - ~~https://css-tricks.com/the-trick-to-viewport-units-on-mobile/~~
