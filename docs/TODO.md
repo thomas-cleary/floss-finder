@@ -1,5 +1,8 @@
 # TODO: floss-finder
 
+- Make a 100% similarity color stand out
+    - Gold colored something (that doesnt clash with a yellowish colour)
+
 - Add Anchor codes to ColoMatches
 
 - Use a better color distance function
