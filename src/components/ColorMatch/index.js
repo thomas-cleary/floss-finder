@@ -13,9 +13,11 @@ const ColorMatch = (props) => {
             <div className="info-label">dmc </div>
             {props.dmcCode}
           </div>
-          <div style={props.similarity === "100" ? {color: "goldenrod"} : {}} className="info">
+          <div className="info">
             <span className="info-label">similarity </span>
-            {props.similarity}%
+            <span className={props.similarity === "100" ? "perfect-match" : ""}>
+              {props.similarity}%
+            </span>
           </div>
         </div>
       </div>
