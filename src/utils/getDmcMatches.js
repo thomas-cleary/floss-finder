@@ -23,12 +23,10 @@ const getDmcMatches = (color) => {
     return {
       ...value,
       distance,
-      similarity:
-        Math.round((100 - (distance * 100) / MAX_RGB_DISTANCE) * 100) / 100,
+      similarity: (100 - (distance * 100) / MAX_RGB_DISTANCE).toFixed(0),
     };
   });
   return matches.sort(compareDistance).slice(0, 10);
-
 };
 
 export default getDmcMatches;
