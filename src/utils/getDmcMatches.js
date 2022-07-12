@@ -27,9 +27,9 @@ const getDmcMatches = (color) => {
     };
   });
   const sortedMatches = matches.sort(compareDistance);
-  const goodMatches = sortedMatches.filter(match => match.similarity >= 90);
+  const goodMatches = sortedMatches.filter(match => match.similarity >= 95);
 
-  return goodMatches.length > 0 ? goodMatches : sortedMatches.slice(0, 5);
+  return goodMatches.length >= 10 ? goodMatches : sortedMatches.slice(0, 10);
 };
 
 export default getDmcMatches;
