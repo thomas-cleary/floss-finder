@@ -10,7 +10,7 @@ const AppHeading = (props) => {
           style={{ textShadow: "0 0 0 white" }}
           onClick={props.onEmojiClick}
         >
-          🪡
+          🧵
         </span>
       </h1>
       <h1>finder</h1>
