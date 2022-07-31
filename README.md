@@ -12,3 +12,7 @@ To apply what I have learnt so far via:
   - **Full Stack Open**
     - [Part 1](https://fullstackopen.com/en/part1)
     - [Part 2](https://fullstackopen.com/en/part2)
+
+<br>
+
+<img src="./docs/mobileScreenshot.png" width="300" style="border-radius: 16px;">
